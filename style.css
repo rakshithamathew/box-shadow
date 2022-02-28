@@ -1,0 +1,58 @@
+body
+{
+  font-family: cursive;
+}
+.shadow{
+  width: 300px;
+  height: 250px;
+  background-color: rgb(238, 225, 227);
+  border: 2px solid beige;
+  box-shadow: 20px 2px 9px crimson;
+}
+.text{
+  font-size: 30px;
+  
+}
+
+
+.box
+{
+    border: 2px solid rgb(148, 54, 54) ;
+    width: 200px;
+    height: 200px;
+    box-shadow: 4px 4px 4px 3px rgb(159, 20, 172);
+    padding: 2px;
+    text-shadow: 4px 4px 3px rgb(184, 32, 32);  
+    background-color: rgb(235, 235, 86);
+    /* transition: width 3s ,height 2s,background-color 3s linear;   */
+    transition:transform 5s;
+    margin: 15px;
+    margin-left: 50px;
+
+}
+h1{
+    text-shadow: 4px 4px 3px gray;    
+    color: rgb(197, 78, 70);
+}
+.box1:hover{
+  
+transform:  rotate(360deg);
+
+}
+.box2{
+    background-color: rgb(22, 13, 141);
+    transition: transform 5s;
+
+}
+.box2:hover{
+    transform: translate(500px);
+}
+.box3
+{
+    background-color: rgb(66, 60, 59);
+    transition: width 5s;
+    transition-delay: 1s;
+}
+.box3:hover{
+    width: 400px;
+}
